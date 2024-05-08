@@ -88,6 +88,10 @@ body{
     color: #363636;
 }
 
+#alexandreId{
+    color: #363636;
+}
+
 .alexandre{
     cursor: default;
     text-decoration: none;
@@ -255,6 +259,11 @@ video{
     cursor: pointer;
 }
 
+a{
+    text-decoration: none;
+    color: white;
+}
+
 button{
     background-color: #4CAF50; /* Cor de fundo */
     border: none; /* Remove a borda */
@@ -307,13 +316,13 @@ h2{
         opacity: 90%;
     }
 
-    .naviagation-menu .navigation-link{
+    .navigation-link{
         margin: 15px 0px 15px 0px;
         counter-reset: blue;
         size: 15px;
     }
 
-    .container-apresentation .apresentation{
+    .apresentation{
         width: 100%;
         margin: 0px 25px;
     }
@@ -329,7 +338,17 @@ h2{
     }
 
     #contato{
-        height: 250px;        
+        height: 300px;        
+    }
+
+    .container-apresentation{
+      
+        height: 350px;
+        
+    }
+
+    .container-apresentation-my-history{
+        height: 700px;
     }
     
 
@@ -358,6 +377,14 @@ h2{
         height: 50px;
         display: block;
     }
+
+    .projeto-lista{
+        width: 100%;
+    }
+
+    #contato{
+        height: 220px;
+    }
     
 }
 
@@ -378,6 +405,13 @@ h2{
     button{
         display: inline-block; 
     }
+
+    .projeto-lista{
+        padding: 25px 0px;
+        width: 100%;
+        font-size: 30px;
+    }
+
 }
 
 
