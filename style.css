@@ -276,6 +276,8 @@ button{
     display: inline-block;
     border-radius: 8px;
     cursor: pointer;
+    width: 200px;
+    height: 50px;
 }
 
 h2{
@@ -334,7 +336,7 @@ h2{
     button{
         width: 180px;
         height: 50px;
-        display: block;
+        display: inline-block;
     }
 
     #contato{
@@ -375,7 +377,7 @@ h2{
     button{
         width: 200px;
         height: 50px;
-        display: block;
+        display: inline-block;
     }
 
     .projeto-lista{
